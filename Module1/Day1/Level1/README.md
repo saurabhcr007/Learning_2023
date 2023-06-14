@@ -3,7 +3,7 @@
 
 ** Question 1 **
 
-Write a function to find biggest of 2 numbers using __
+Write a function to find biggest of 2 numbers using <br/>
     > if else__
     > ternary operator__
 
