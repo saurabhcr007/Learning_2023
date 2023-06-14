@@ -7,7 +7,7 @@ Write a function to find biggest of 2 numbers using <br/>
     > if else <br/>
     > ternary operator <br/>
 
-[Solution1.c](https://pages.github.com/)
+[Solution1.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day1/Level1/Question1.c)
 
 
 ** Question 2 **
@@ -19,7 +19,7 @@ Write a program to print the grade of the given student using if else if block <
     > 50 to 59 -> "Grade D"<br/>
     > 0 to 49 -> "Grade F"<br/>
 
-[Solution2.c](https://pages.github.com/)
+[Solution2.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day1/Level1/Question2.c)
 
 
 ** Question 3 **
@@ -30,7 +30,7 @@ Write a program to print the grade of the given student using if else if block <
     > Marks of Physics, Math and Chemistry<br/>
     Calculate the total, percentage and print the summary.<br/>
 
-[Solution3.c](https://pages.github.com/)
+[Solution3.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day1/Level1/Question3.c)
 
 
 ** Question 4 **
@@ -47,7 +47,7 @@ Scan the operator from the user.<br/>
 printf("Enter Number2: );<br/>
 Scan the second number form the user.<br/>
 
-[Solution4.c](https://pages.github.com/)
+[Solution4.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day1/Level1/Question4.c)
 
 
 ** Question 5 **
@@ -59,4 +59,4 @@ Write a function to accept an integer (32 bits) and operation type to do the fol
    You can consider the below function prototype,<br/>
     > bit_operations(int num, int oper_type);<br/>
 
-[Solution5.c](https://pages.github.com/)
+[Solution5.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day1/Level1/Question5.c)
