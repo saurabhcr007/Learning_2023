@@ -8,7 +8,7 @@ Patern Generator:<br/>
 Write a program to print the given pattern below using 3 functions<br/>
 (1st to accept n and to print from 1 to n,2nd to accept n and print spaces in between, 3rd to accept the n and print from n to 1)<br/>
 > 1234554321<br/>
-> 1234  4321<br/>
+> 1234&nbsp;&nbsp;4321<br/>
 > 123    321<br/>
 > 12      21<br/>
 > 1        1<br/>
