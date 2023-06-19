@@ -2,30 +2,52 @@
 #include <stdlib.h>
 #include <string.h>
 
-void reversestring(char str[], int length){
-    char temp;
-    int mid=0;
-    if(length%2==0){
-        mid=length/2;
+
+void leftrotate(char str[],int length,int rot){
+    rot=rot%length;
+    char sub[length];
+    for(int i=0;i<length;i++){
+        int temp = (i+rot)%length;
+        sub[i]=str[temp];
     }
-    else{
-        mid=(length+1)/2;
+    sub[length]='\0';
+    printf("\nLeft Rotated string :%s",sub);
+}
+
+void rightrotate(char str[],int length,int rot){
+    rot=rot%length;
+    char sub[length];
+    for(int i=0;i<length;i++){
+        int temp = (i+length-rot)%length;
+        sub[i]=str[temp];
     }
-    for(int i=0,j=length-1;i<mid;i++,j--){
-        temp=str[i];
-        str[i]=str[j];
-        str[j]=temp;
-    }
-    printf("Reversed string :%s",str);
+    sub[length]='\0';
+    printf("\nright Rotated string :%s",sub);
 }
 
 int main(){
     int length;
     printf("Enter the length of string :");
     scanf("%d",&length);
+
     char str[length];
     printf("\nEnter the string :");
     scanf("%s",str);
+
+    int rot;
+    printf("Enter the number of rotation :");
+    scanf("%d",&rot);
+
+    char direction[5];
+    printf("Enter (left) to rotate left || (right) to rotate right :");
+    scanf("%s",direction);
+    
     printf("\nEntered String :%s",str);
-    reversestring(str,length);
+
+    if(strcmp(direction,"left")==0){
+        leftrotate(str,length,rot);
+    }
+    else{
+        rightrotate(str,length,rot);
+    }
 }
