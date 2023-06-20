@@ -31,3 +31,8 @@ Rotate String<br/>
 [Solution4.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day4/Level1(Strings)/Question4.c)
 
 
+** Question 5 **
+
+Count no. of Days<br/>
+
+[Solution4.c](https://github.com/saurabhcr007/Learning_2023/blob/main/Module1/Day4/Level1(Strings)/Question5.c)
